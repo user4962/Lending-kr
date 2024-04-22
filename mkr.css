@@ -1,0 +1,421 @@
+.container {
+    display: flex;
+    align-items: center; /* вирівнювання елементів по вертикалі */
+    padding: 1% 0;  /* внутрішній відступ зверху та знизу на 5% */
+}
+.item {
+    white-space: nowrap; /* запобігає переносу тексту */
+    margin: 0 10px;      /* маргін між елементами */
+    margin-left: 5%;  /* маргін зліва */
+ 
+}
+#LOG {
+    margin-right: 40%; /* маргін справа */
+    margin-left: 1%; 
+}
+.my-button {
+    margin-left: 5%;
+    display: inline-block;
+    padding: 10px 20px;      /* внутрішній відступ від тексту до меж кнопки */
+    font-size: 16px;        /* розмір шрифту */
+    font-weight: bold;      /* жирний шрифт */
+    text-align: center;     /* вирівнювання тексту по центру */
+    text-decoration: none;  /* видалення декору підкреслення */
+    color: #ffffff;         /* колір тексту */
+    background-color: #007bff; /* синій колір фону кнопки */
+    border: none;           /* видалення рамки */
+    border-radius: 25px;    /* більший радіус для закруглення кути */
+    cursor: pointer;        /* зміна курсора при наведенні */
+    transition: background-color 0.3s ease; /* плавна зміна коліру фону при наведенні */
+
+    font-family: 'Montserrat';
+    font-style: normal;
+}
+
+.my-button:hover {
+    background-color: #2686ee; /* темно-синій колір фону при наведенні курсора */
+}
+#fon1{
+    width: 100%; /* встановлює ширину фото на 100% від ширини контейнера */
+    height: auto; /* автоматична висота, щоб зберегти пропорції */
+}
+.block {
+    display: flex;           /* встановлення блока як flex-контейнера */
+    flex-direction: column;  /* встановлення вертикального напрямку */
+    font-size: 580%;
+    color: rgb(255, 255, 255);
+    margin-top: -43%; /* зменшення відстані зверху на 10 пікселів */
+    margin-left: 12%;
+}
+    
+.block span {
+    margin-bottom: -2%;     /* маргін знизу для відступу між словами */
+}
+.additional-text {
+    font-family: Montserrat;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    width: 484px;
+    height: 48px;
+    gap: 0px;
+    opacity: 0px;
+	color: black;
+	margin-top: 25px;
+}
+.support-button {
+    background-color: white; /* Білий фон кнопки */
+    color: black; /* Чорний колір тексту кнопки */
+    padding: 21px 35px; /* Внутрішні відступи кнопки */
+    font-size: 16px; /* Розмір шрифту */
+    font-weight: bold; /* Жирний шрифт */
+    border-radius: 25px; /* Закругленість кутів */
+    cursor: pointer; /* Зміна курсору при наведенні */
+    transition: background-color 0.3s ease; /* Плавна зміна коліру фону при наведенні */
+    margin-top: 25px; /* Відступ зверху від попереднього тексту */
+}
+
+.support-button:hover {
+    background-color: #f0f0f0; /* Білий фон кнопки при наведенні */
+}
+.whitefon {
+	width: Fixed (1,440px)px;
+height: Hug (545px)px;
+padding: 160px 71px 160px 71px;
+gap: 160px;
+opacity: 0px;
+background: #FFFFFF;
+margin-top: 280px;
+}
+.h1text {
+	font-family: Montserrat;
+font-size: 60px;
+font-weight: 400;
+line-height: 72px;
+letter-spacing: -0.02em;
+text-align: center;
+color: black;
+margin-top: -80px;
+
+}
+.h2text {
+		font-family: Montserrat;
+		margin-top: -60px;
+font-size: 27px;
+font-weight: 400;
+line-height: 32.4px;
+text-align: center;
+gap: 0px;
+text-align: center;
+}
+.h3text {
+	font-family: Montserrat;
+font-size: 20px;
+font-weight: 400;
+line-height: 24px;
+text-align: center;
+gap: 0px;
+color:#73A6B1;
+text-align: center;
+margin-top: -25px;
+}
+
+
+.window {
+    position: absolute;
+    top: 1300; /* або встановіть bottom, якщо хочете визначити позицію від низу */
+    left: 0;
+    width: 100%;
+    background: #F1FDFF;
+    padding: 160px 71px;
+    box-sizing: border-box; /* щоб padding не впливав на ширину елемента */
+}
+.textq {
+	font-family: Montserrat;
+font-size: 46px;
+font-weight: 400;
+line-height: 55.2px;
+letter-spacing: -0.02em;
+text-align: left;
+width: 45%;
+height: 110px;
+gap: 0px;
+}
+.textw {
+	font-family: Montserrat;
+font-size: 20px;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
+width: 45%;
+height: 144px;
+}
+.photo1 {
+    position: absolute; /* Встановлюємо абсолютне позиціонування */
+    bottom: 15%; /* Вирівнюємо фото по нижньому краю */
+    right: 10%; /* Вирівнюємо фото по правому краю */
+}
+.second-window {
+    position: absolute;
+	margin-top: 700px;
+    left: 0;
+    width: 100%;
+    background: #F1FDFF;
+    padding: 160px 71px;
+    box-sizing: border-box;
+}
+.window3 {
+    position: absolute;
+	margin-top: 1500px;
+    left: 0;
+    width: 100%;
+    background: #F1FDFF;
+    padding: 160px 71px;
+    box-sizing: border-box;
+}
+.text3 {
+	font-family: Montserrat;
+font-size: 35px;
+font-weight: 400;
+line-height: 32.73px;
+text-align: left;
+width: 45%;
+height: 132px;
+gap: 0px;
+}
+.photo2 {
+    z-index: 1; /* Встановлюємо значення z-index */
+    position: relative; /* Встановлюємо позиціонування */
+	float: right;
+	margin-bottom: 20px
+}
+
+.photo3 {
+    z-index: 2; /* Встановлюємо значення z-index більшим, щоб накладене фото було вище */
+    position: absolute; /* Встановлюємо позиціонування */
+}
+.whitefon2 {
+	width: Fixed (1,440px)px;
+height: Hug (556px)px;
+padding: 0px 71px 160px 71px;
+gap: 50px;
+margin-top: 2000px;
+
+}
+.h1text2{
+	font-family: Montserrat;
+font-size: 60px;
+font-weight: 400;
+line-height: 72px;
+letter-spacing: -0.02em;
+text-align: center;
+width: center;
+height: top;
+gap: 0px;
+color: black;
+}
+.h2text2{
+	font-family: Montserrat;
+font-size: 20px;
+font-weight: 400;
+line-height: 24px;
+text-align: center;
+width: center;
+height: top;
+color:#73A6B1;
+margin-top: -60px;
+}
+.h3text2{
+	font-family: Montserrat;
+font-size: 27px;
+font-weight: 400;
+line-height: 32.4px;
+text-align: center;
+width: center;
+height: top;
+color: black;
+margin-top: 50px;
+}
+.text-with-vector {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Проміжок між текстом і векторами */
+	width: center;
+	height: top;
+	justify-content: center;
+}
+
+.text-style {
+    font-family: Montserrat;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 72px;
+    letter-spacing: -0.02em;
+    text-align: center;
+}
+
+.vector-style {
+    width: 2px; 
+    height: 50px;
+    border-left: 2px solid #9AD2DE; /* Зміна напряму бордюру */
+}
+.button3 {
+	padding: 21px 35px;      /* внутрішній відступ від тексту до меж кнопки */
+    font-size: 16px;        /* розмір шрифту */
+    font-weight: bold;      /* жирний шрифт */
+    text-align: center;     /* вирівнювання тексту по центру */
+    text-decoration: none;  /* видалення декору підкреслення */
+    color: #ffffff;         /* колір тексту */
+    background-color: #7AE5FD; /* синій колір фону кнопки */
+    border: none;           /* видалення рамки */
+    border-radius: 25px;    /* більший радіус для закруглення кути */
+    cursor: pointer;        /* зміна курсора при наведенні */
+    transition: background-color 0.3s ease; /* плавна зміна коліру фону при наведенні */
+
+    font-family: 'Montserrat';
+    font-style: normal;
+	margin-left: 570px;
+	margin-top: 40px;
+}
+
+
+
+.window4 {
+    bottom: 0;
+    left: 0;
+    width: 100%;
+	height: 1004px;
+    padding: 160px 71px;
+    box-sizing: border-box;
+    background: #F9FADF;
+}
+.h1conteiner {
+	margin-top: -100px;
+	float: left;
+	width: 50%;
+height: Fill (231px)px;
+gap: 10px;
+opacity: 0px;
+}
+.window4h1 {
+	font-family: Montserrat;
+font-size: 60px;
+font-weight: 400;
+line-height: 72px;
+letter-spacing: -0.02em;
+text-align: center;
+width: 336px;
+height: 72px;
+gap: 0px;
+}
+.h2conteiner {
+float: left;
+	width: 50%;
+height: Fill (231px)px;
+gap: 57px;
+opacity: 0px;
+float: right;
+}
+.window4h2 {
+	font-family: Montserrat;
+font-size: 20px;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
+}
+.emailfon {
+	margin-top: 200px;
+	width: Fill (1,298px)px;
+height: 513px;
+padding: 60px 0px 0px 0px;
+gap: 0px;
+border-radius: 10px 0px 0px 0px;
+justify: space-between;
+background: #FFFFFF;
+}
+.emailphoto{
+
+	float: left;
+}
+.emailform{
+	margin-left:700px;
+	height:393px;
+
+}	
+.emailtext {
+	font-family: Montserrat;
+font-size: 27px;
+font-weight: 400;
+line-height: 32.4px;
+text-align: left;
+}
+.emailformfon {
+	width: 500px;
+	height: 50px;
+	padding: 8px 20px;      /* внутрішній відступ від тексту до меж кнопки */
+    font-size: 20px;        /* розмір шрифту */
+    text-decoration: none;  /* видалення декору підкреслення */
+    color: black;         /* колір тексту */
+    background-color: #F9FADF; /* синій колір фону кнопки */
+    border: none;           /* видалення рамки */
+    font-family: 'Montserrat';
+    font-style: normal;
+	border-radius: 25px;
+	
+}
+.emailformfon2 {
+	margin-top: 20px;
+	width: 500px;
+	height: 50px;
+	padding: 8px 20px;      /* внутрішній відступ від тексту до меж кнопки */
+    font-size: 20px;        /* розмір шрифту */
+    text-decoration: none;  /* видалення декору підкреслення */
+    color: black;         /* колір тексту */
+    background-color: #F9FADF; /* синій колір фону кнопки */
+    border: none;           /* видалення рамки */
+    font-family: 'Montserrat';
+    font-style: normal;
+	border-radius: 25px;
+	
+}
+.emailformbutton {
+	margin-top: 20px;
+	width: 540px;
+	height: 66px;
+	padding: 8px 20px;      /* внутрішній відступ від тексту до меж кнопки */
+    font-size: 20px;        /* розмір шрифту */
+    text-decoration: none;  /* видалення декору підкреслення */
+    color: black;         /* колір тексту */
+    background-color: #7AE5FD; /* синій колір фону кнопки */
+    border: none;           /* видалення рамки */
+    font-family: 'Montserrat';
+    font-style: normal;
+	border-radius: 25px;
+	text-align: center;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+		
+
+
+
+
